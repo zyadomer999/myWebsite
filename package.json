@@ -1,0 +1,34 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "dev": "nodemon ./server/index.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "homepage": "https://zyadomer999.github.io/myWebsite",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "connect": "^3.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "fs": "0.0.1-security",
+    "gh-pages": "^3.1.0",
+    "harmon": "^1.4.4",
+    "http-proxy": "^1.18.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.5"
+  }
+}
